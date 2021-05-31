@@ -76,7 +76,8 @@ Pod::Spec.new do |s|
   s.dependency 'React-jsiexecutor'
   s.dependency 'React-jsinspector'
   s.dependency 'ReactCommon/turbomodule/core'
-  s.dependency 'Yoga'
+  # s.dependency 'Yoga'
+  s.dependency 'yoga', '0.63.4.React'
   s.dependency 'DoubleConversion'
   s.dependency 'glog'
 
