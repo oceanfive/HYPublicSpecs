@@ -1,6 +1,6 @@
 
 version = '5.1.10'
-source = { :git => 'https://github.com/callstack/react-native-pager-view.git', :tag => "#{version}"}
+source = { :git => 'https://github.com/callstack/react-native-pager-view.git', :tag => "v#{version}"}
 
 Pod::Spec.new do |s|
   s.name         = "react-native-pager-view"
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT' }
   s.authors      = "troZee <hello@callstack.com> (https://github.com/callstack)"
   s.static_framework       = true
-  
+
   s.platforms    = { :ios => "10.0" }
   s.source       = source
 
