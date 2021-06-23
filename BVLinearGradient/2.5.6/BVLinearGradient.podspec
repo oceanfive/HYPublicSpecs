@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
   s.static_framework = true
   s.source          = source
-  s.source_files    = 'ios/*.{h,m}'
+  s.source_files    = 'BVLinearGradient/*.{h,m}'
   s.preserve_paths  = "**/*.js"
   s.frameworks = 'UIKit', 'QuartzCore', 'Foundation'
   
