@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.ios.deployment_target = '9.0'
 
-  s.source       = version
+  s.source       = source
   s.source_files = "lib/ios/**/*.{h,m}"
   s.static_framework = true
 
