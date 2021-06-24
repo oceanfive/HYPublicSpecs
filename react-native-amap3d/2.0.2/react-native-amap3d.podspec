@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.authors      = { "Qiu Xiang" => "i@7c00.cc" }
   s.homepage     = "https://github.com/qiuxiang/react-native-amap3d"
   s.license      = "MIT"
-  s.platform     = { :ios => "9.0" }
+  s.ios.deployment_target = '9.0'
 
   s.source       = version
   s.source_files = "lib/ios/**/*.{h,m}"
