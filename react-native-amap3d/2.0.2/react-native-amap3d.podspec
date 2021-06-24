@@ -10,12 +10,12 @@ Pod::Spec.new do |s|
   s.authors      = { "Qiu Xiang" => "i@7c00.cc" }
   s.homepage     = "https://github.com/qiuxiang/react-native-amap3d"
   s.license      = "MIT"
-  s.platform     = :ios, "9.0"
+  s.platform     = { :ios, "9.0" }
 
   s.source       = version
-  s.source_files = 'lib/ios/**/*.{h,m}'
+  s.source_files = "lib/ios/**/*.{h,m}"
   s.static_framework = true
-  
+
   s.dependency 'React'
   s.dependency 'AMap3DMap', "~> 7.9.0"
 end
