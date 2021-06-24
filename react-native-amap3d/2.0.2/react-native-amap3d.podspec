@@ -1,6 +1,6 @@
 
 version = '2.0.2'
-source = { :git => 'https://github.com/qiuxiang/react-native-amap3d.git', :tag => "v#{version}"}
+source = { :git => 'https://github.com/qiuxiang/react-native-amap3d' }
 
 Pod::Spec.new do |s|
   s.name         = "react-native-amap3d"
