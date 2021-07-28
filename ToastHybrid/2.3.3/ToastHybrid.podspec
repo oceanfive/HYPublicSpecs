@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.authors      = { "listen" => "listenzz@163.com" }
   s.platforms    = { :ios => "10.0", :tvos => "10.0" }
   s.source       = source
-
+  s.static_framework = true
   s.source_files = "ios/ToastHybrid/**/*.{h,m,swift}"
   s.resource_bundles = {
     'ToastHybrid' => ['ios/*.{storyboard,xib,xcassets,json,imageset,png}']
